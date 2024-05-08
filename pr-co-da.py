@@ -134,7 +134,7 @@ if selected_machine in ["BCSP"]:
         top_line_plotly = go.Figure()
 
         # Define the number of data points per set
-        data_points_per_set = 599
+        data_points_per_set = 602
 
         for coat_date, group in grouped_df:
             # Split the data into sets of 599 data points
